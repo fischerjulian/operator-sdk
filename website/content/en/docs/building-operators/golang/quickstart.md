@@ -56,7 +56,7 @@ This guide walks through an example of building a simple memcached-operator usin
   ```
 
 1. Run your bundle. If your bundle image is hosted in a registry that is private and/or
-has a custom CA, these [configuration steps][image-reg-config] must be complete.
+has a custom CA, these [configuration steps][image-reg-config] must be completed.
 
   ```sh
   operator-sdk run bundle example.com/memcached-operator-bundle:v0.0.1
